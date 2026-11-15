@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Courses - ODA Bultum University</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f0f4f8;
+            text-align: center;
+        }
+
+        header {
+            background: #123b63;
+            color: white;
+            padding: 25px;
+        }
+
+        nav {
+            background: #087eaf;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .course {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            border-radius: 8px;
+        }
+
+        button {
+            background: #087eaf;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #123b63;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ODA BULTUM UNIVERSITY</h1>
+    <h2>ONLINE LEARNING AND TEACHING SYSTEM</h2>
+</header>
+
+<nav>
+    <a href="student-dashboard.html">Dashboard</a>
+    <a href="courses.html">My Courses</a>
+    <a href="login.html">Login</a>
+</nav>
+
+<h2>My Courses</h2>
+
+<div class="course">
+    <h3>Java Programming</h3>
+    <p>Learn Java programming from the basics.</p>
+
+    <form action="EnrollmentServlet" method="post">
+        <input type="hidden" name="courseId" value="1">
+        <button type="submit">Enroll Now</button>
+    </form>
+</div>
+
+<div class="course">
+    <h3>Database Management</h3>
+    <p>Learn how to organize and manage data.</p>
+
+    <form action="EnrollmentServlet" method="post">
+        <input type="hidden" name="courseId" value="2">
+        <button type="submit">Enroll Now</button>
+    </form>
+</div>
+
+<div class="course">
+    <h3>Web Development</h3>
+    <p>Learn HTML, CSS, and web development.</p>
+
+    <form action="EnrollmentServlet" method="post">
+        <input type="hidden" name="courseId" value="3">
+        <button type="submit">Enroll Now</button>
+    </form>
+</div>
+
+</body>
+</html>

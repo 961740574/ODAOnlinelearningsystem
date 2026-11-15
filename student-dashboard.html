@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard - ODA Bultum University</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4f8;
+            margin: 0;
+            text-align: center;
+        }
+
+        header {
+            background: #003366;
+            color: white;
+            padding: 25px;
+        }
+
+        .container {
+            margin: 40px auto;
+            max-width: 700px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #ccc;
+        }
+
+        a {
+            display: inline-block;
+            background: #003366;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        a:hover {
+            background: #087eaf;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ODA BULTUM UNIVERSITY</h1>
+    <h2>Student Dashboard</h2>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Welcome Student!</h2>
+        <p>Welcome to your online learning dashboard.</p>
+    </div>
+
+    <div class="card">
+        <h2>My Profile</h2>
+        <p>View and manage your student information.</p>
+        <a href="StudentProfileServlet">View My Profile</a>
+    </div>
+
+    <div class="card">
+        <h2>My Courses</h2>
+        <p>View your available courses.</p>
+        <a href="courses.html">View Courses</a>
+    </div>
+
+    <div class="card">
+        <h2>Logout</h2>
+        <a href="StudentLogoutServlet">Logout</a>
+        <div class="card">
+    <h2>Live Classes</h2>
+    <a href="StudentLiveClassesServlet">View Live Classes</a>
+</div>
+
+<div class="card">
+    <h2>My Assignments</h2>
+    <a href="StudentAssignmentServlet">View Assignments</a>
+    <a href="AssignmentSubmissionServlet">Submit Assignment</a>
+</div>
+
+<div class="card">
+    <h2>Online Examination</h2>
+    <a href="StudentExamServlet">Take Exam</a>
+    <a href="StudentExanResultsServlet">Exam Results</a>
+</div>
+
+<div class="card">
+    <h2>Assignment Grades</h2>
+    <a href="StudentViewAssignmentGradeServlet">View My Grades</a>
+</div>
+    </div>
+
+</div>
+
+</body>
+</html>

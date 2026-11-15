@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teacher Registration - ODA Bultum University</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial;
+            background: #f0f4f8;
+            text-align: center;
+        }
+        form {
+            background: white;
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        input {
+            width: 90%;
+            padding: 12px;
+            margin: 10px;
+        }
+        button {
+            background: #123b63;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<h2>ODA BULTUM UNIVERSITY</h2>
+<h3>Teacher Registration</h3>
+
+<form action="teacher-register" method="post">
+
+    <input type="text" name="full_name"
+           placeholder="Full Name" required>
+
+    <input type="email" name="email"
+           placeholder="Email Address" required>
+
+    <input type="password" name="password"
+           placeholder="Password" required>
+
+    <button type="submit">Register</button>
+
+</form>
+
+</body>
+</html>

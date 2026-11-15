@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - ODA Bultum University</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4f8;
+            margin: 0;
+            text-align: center;
+        }
+
+        header {
+            background: #123b63;
+            color: white;
+            padding: 25px;
+        }
+
+        nav {
+            background: #087eaf;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .register-box {
+            background: white;
+            max-width: 380px;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 8px;
+        }
+
+        input, select {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            background: #087eaf;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ODA BULTUM UNIVERSITY</h1>
+        <h2>ONLINE LEARNING AND TEACHING SYSTEM</h2>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+    </nav>
+
+    <div class="register-box">
+        <h2>Create Student Account</h2>
+
+        <form action="student-register" method="post">
+            <input type="text" name="full_name"
+                   placeholder="Full_Name" required>
+
+            <input type="email" name="email"
+                   placeholder="Email Address" required>
+
+            <input type="password" name="password"
+                   placeholder="Create Password" required>
+
+            <select name="department" required>
+                <option value="">Select Department</option>
+                 <option value="Electrical and Computer Engineering">Electrical and Computer Engineering</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Information Technology">
+                    Information Technology
+                </option>
+                <option value="Software Engineering">
+                    Software Engineering
+                </option>
+                
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+       
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       
+    </body>
+</html>

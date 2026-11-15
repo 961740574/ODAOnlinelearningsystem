@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ODA Bultum University</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4f8;
+            margin: 0;
+            text-align: center;
+        }
+        header {
+            background: #123b63;
+            color: white;
+            padding: 25px;
+        }
+        nav {
+            background: #087eaf;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+        .login-box {
+            background: white;
+            max-width: 380px;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 8px;
+        }
+        input {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            background: #087eaf;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ODA BULTUM UNIVERSITY</h1>
+        <h2>ONLINE LEARNING AND TEACHING SYSTEM</h2>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+    </nav>
+
+    <div class="login-box">
+        <h2>Student Login</h2>
+        <form action="student-login" method="post">
+            <input type="email" name="email"
+                   placeholder="Email Address" required>
+            <input type="password" name="password"
+                   placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
